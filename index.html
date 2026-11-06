@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Transport System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Campus Transport System</h1>
+        <p>Find your bus and check its timing</p>
+    </header>
+
+    <nav>
+        <a href="#routes">Bus Routes</a>
+        <a href="#timings">Timings</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="welcome">
+        <h2>Welcome Students!</h2>
+        <p>This website helps students find campus bus routes and timings.</p>
+    </section>
+
+    <section id="routes">
+        <h2>Available Bus Routes</h2>
+
+        <input type="text" id="search" placeholder="Search a route...">
+        <button onclick="searchRoute()">Search</button>
+
+        <div id="routeList">
+            <div class="route">
+                <h3>Route 1 - North Side</h3>
+                <p>City Centre to Main Campus</p>
+            </div>
+
+            <div class="route">
+                <h3>Route 2 - South Side</h3>
+                <p>South Market to Main Campus</p>
+            </div>
+
+            <div class="route">
+                <h3>Route 3 - East Side</h3>
+                <p>East Colony to Main Campus</p>
+            </div>
+        </div>
+        <p id="message"></p>
+    </section>
+
+    <section id="timings">
+        <h2>Bus Timings</h2>
+        <table>
+            <tr>
+                <th>Route</th>
+                <th>Starting Point</th>
+                <th>Departure Time</th>
+            </tr>
+            <tr>
+                <td>Route 1</td>
+                <td>City Centre</td>
+                <td>7:30 AM</td>
+            </tr>
+            <tr>
+                <td>Route 2</td>
+                <td>South Market</td>
+                <td>7:20 AM</td>
+            </tr>
+            <tr>
+                <td>Route 3</td>
+                <td>East Colony</td>
+                <td>7:35 AM</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Transport Office: 9876543210</p>
+        <p>Email: transport@college.com</p>
+    </section>
+
+    <footer>
+        <p>Campus Transport System | College Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
