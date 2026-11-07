@@ -1,25 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Short+Stack&display=swap');
+.bus-image {
+    width: 220px;
+    display: block;
+    margin: 10px auto;
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Anta', serif;
     margin: 0;
     background-color: #f2f5f3;
     color: #222;
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
-    background-color: #176b4b;
-    color: white;
+    background-color: #f97316;
+    color: #fff7ed;
     text-align: center;
     padding: 25px;
 }
 
 nav {
-    background-color: #124d37;
+    background-color: #f97316;
     text-align: center;
     padding: 12px;
 }
 
 nav a {
-    color: white;
+    color: #fff7ed;
     text-decoration: none;
     margin: 15px;
 }
@@ -37,14 +46,14 @@ section {
 }
 
 h2 {
-    color: #176b4b;
+    color: #f97316;
 }
 
 .route {
     background-color: #e8f2ec;
     padding: 10px;
     margin: 10px 0;
-    border-left: 4px solid #176b4b;
+    border-left: 4px solid #f97316;
 }
 
 input {
@@ -54,14 +63,14 @@ input {
 
 button {
     padding: 9px 15px;
-    background-color: #176b4b;
+    background-color: #f97316;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #124d37;
+    background-color: #f97316;
 }
 
 table {
@@ -76,13 +85,26 @@ th, td {
 }
 
 th {
-    background-color: #176b4b;
+    background-color: #f97316;
     color: white;
 }
 
 footer {
-    background-color: #124d37;
+    background-color: #f97316;
     color: white;
     text-align: center;
     padding: 12px;
 }
+
+section { box-shadow: 0 2px 8px #ccc; 
+}
+
+.route { border-radius: 8px; 
+}
+
+button { border-radius: 5px; 
+}
+
+button:hover { transform: scale(1.03); 
+}
+
