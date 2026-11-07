@@ -10,6 +10,20 @@
         width: 100px;
         right: 10px;
     }
+
+#contacts { 
+    max-width: 350px; margin: 15px auto; font-family: sans-serif; 
+}
+
+.row {
+     display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #ddd; 
+    }
+.row a {
+     background: #16a34a; color: #fff; padding: 6px 12px; text-decoration: none; border-radius: 4px; 
+    }
+.row a:hover {
+     background: #15803d; 
+    }
 }
 body {
     font-family: 'Anta', serif;

@@ -27,3 +27,6 @@ function searchRoute() {
         document.getElementById("message").innerText = "";
     }
 }
+document.querySelectorAll('#contacts a').forEach(btn => {
+    btn.onclick = () => console.log('Calling: ' + btn.href);
+});
